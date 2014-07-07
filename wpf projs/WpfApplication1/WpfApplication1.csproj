@@ -55,6 +55,19 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ArrayWindow.xaml.cs">
+      <DependentUpon>ArrayWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="StaticWindow.xaml.cs">
+      <DependentUpon>StaticWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="StyleWindow.xaml.cs">
+      <DependentUpon>StyleWindow.xaml</DependentUpon>
+    </Compile>
+    <Page Include="ArrayWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -69,6 +82,14 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="StaticWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="StyleWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">

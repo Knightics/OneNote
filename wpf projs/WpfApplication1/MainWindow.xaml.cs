@@ -22,17 +22,5 @@ namespace WpfApplication1
         public MainWindow()
         {
         }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            if (string.IsNullOrEmpty(txtGood.Name))
-            {
-                txtGood.Text = "bad";
-            }
-            else
-            {
-                txtGood.Text = txtGood.Name;
-            }
-        }
     }
 }
