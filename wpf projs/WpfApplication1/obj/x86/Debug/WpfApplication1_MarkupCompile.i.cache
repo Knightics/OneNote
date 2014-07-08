@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\OneNote.git\trunk\WPF via VS2010\WpfApplication1\obj\x86\Debug\
+D:\OneNote.git\trunk\wpf projs\WpfApplication1\obj\x86\Debug\
 WpfApplication1
 none
 false
 DEBUG;TRACE
-D:\OneNote.git\trunk\WPF via VS2010\WpfApplication1\App.xaml
+D:\OneNote.git\trunk\wpf projs\WpfApplication1\App.xaml
 4-1460202243
 
 11-1595396557
 12-1381780322
 ArrayWindow.xaml;MainWindow.xaml;StaticWindow.xaml;StyleWindow.xaml;
 
-False
+True
 
